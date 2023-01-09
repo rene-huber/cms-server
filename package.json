@@ -1,0 +1,21 @@
+{
+  "name": "payload-template-js-blank",
+  "description": "Payload project created from js-blank template",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "payload build",
+    "serve": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "payload": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
