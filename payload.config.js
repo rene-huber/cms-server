@@ -4,7 +4,7 @@ import Posts from './collections/Posts';
 import Users from './collections/Users';
 
 export default buildConfig({
-  serverURL: 'http://localhost:8007',
+  serverURL: 'http://localhost:3000',
   admin: {
     user: Users.slug,
   },
